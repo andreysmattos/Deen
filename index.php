@@ -40,11 +40,12 @@ include 'script.php';
 
 						</div>
 						<div class="col-md-6"></div>
-
+						<span class="controler"><?php echo ++$contador; ?> de 5</span>
 					</div>
-					<span class="controler"><?php echo ++$contador; ?> de 5</span>
+					
 					
 				</div>
+				
 
 
 				<?php
