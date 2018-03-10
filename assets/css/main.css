@@ -1,0 +1,25 @@
+.cor {
+	background-color: #39dd92;
+	color: white;
+	height: 400px;
+	width: 100%;
+}
+
+.title_carroussel {
+	margin-top: 50px;
+	font-size: 36px;
+}
+
+.controler {
+	position: absolute;
+	bottom: -80%;
+	color: #2ec181;
+}
+
+.title_noticia {
+	margin-top: 60px;
+}
+
+.noticia {
+	margin-top: 2.5em;
+}
