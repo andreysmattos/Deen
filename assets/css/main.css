@@ -10,11 +10,23 @@
 	font-size: 36px;
 }
 
-.controler {
-	position: absolute;
-	bottom: -80%;
-	color: #2ec181;
+
+
+
+.carousel-item {
+	height: 100%;
 }
+
+
+.controler {
+	bottom: 0px;
+}
+
+
+
+
+
+
 
 .title_noticia {
 	margin-top: 60px;
@@ -23,3 +35,5 @@
 .noticia {
 	margin-top: 2.5em;
 }
+
+

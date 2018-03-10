@@ -47,7 +47,7 @@ include 'script.php';
 				</div>
 
 
-				<?
+				<?php
 			endforeach;
 			?>
 
