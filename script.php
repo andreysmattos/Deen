@@ -12,6 +12,7 @@ libxml_use_internal_errors(true);
 try {
 
 	if(!$rss = simplexml_load_file('http://deen.com.br/blog/feed/')){
+		//Registra log de erro.
 		die();
 	}
 
@@ -33,7 +34,7 @@ try {
 
 
 
-} catch (Exception $e){
-	echo "erro";
+} catch (Exception $e){	
+	//Registra log de erro.
 	die();
 }
