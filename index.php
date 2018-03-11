@@ -1,5 +1,11 @@
 <?php
-include 'script.php';
+	include 'script.php';
+
+	if(empty($carrosel) || empty($r)){
+		echo "Error";
+		die();
+		// registra log com monolog
+	}
 
 ?>
 
